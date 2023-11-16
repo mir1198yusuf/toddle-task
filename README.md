@@ -2,15 +2,15 @@
 
 ### Hosted on
 
--   The live url of backend is -
+-   The live url of backend is - https://toddle-task.ddns.net . This is the base url of hosted version (like http://localhost:3000 is for local version). It will redirect to postman collection (more details in below section)
 -   Hosted on EC2 t2.micro
 -   Used Nginx as reverse proxy running on same instance and added TLS on it
 -   Postgres db is also running on same instance
 
 ### Before running locally
 
--   Make sure Node.js 14+ & Postgres server is installed
--   The migrations will create the database as well, so it will first connect to default `postgres` database. Make sure that `postgres` database is not deleted & user have access to connect to `postgres` database.
+-   Make sure Node.js 14+ & Postgres server is installed & Postgres server is running.
+-   The project migrations will create the database as well, so it will first connect to default `postgres` database. Make sure that `postgres` database is not deleted & user have access to connect to `postgres` database.
 
 ### How to run locally
 
@@ -39,8 +39,10 @@
 
 ### Report issues
 
--   I have double checked all steps of running server, file permission, postman collection permission, etc to make sure that the review process is seamless.
--   However, in case I missed something or you are facing any issue in review process, please do let me know & I will assist quickly
+-   I have verified all steps of running server, file permission, postman collection permission, etc to make sure that the review process is seamless.
+-   However, in case I missed something or you are facing any issue in review process, please do let me know & I will assist quickly.
+-   I covered almost all of the test cases, in case any is missed, please let me know, I will fix them too.
+-   In case you want to review the data in remote hosted Postgres database for verification, please let me know. Will share the credentials (so you can connect via any of client like PgAdmin, etc) or I can show the data on a call.
 
 ### Cleanup steps
 

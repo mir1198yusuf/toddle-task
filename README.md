@@ -25,7 +25,7 @@
 
 ### Postman Collection
 
--   The collection is public [here](https://www.postman.com/ym-356609/workspace/ym-team/collection/16305790-832c639b-bd7a-4e8d-ae20-4caa83107411?action=share&creator=16305790)
+-   The collection is public [here](https://www.postman.com/ym-356609/workspace/ym-team/collection/16305790-832c639b-bd7a-4e8d-ae20-4caa83107411?action=share&creator=16305790) . Fork it to your account to run it, also fork both the environments `toddle-local` and `toddle-ec2` avaiable in Environment section of same link.
 -   If you are testing locally, use `toddle-local` postman environment. To test hosted version, use `toddle-ec2` postman environment. This will properly set the `url` variable of collection requests.
 -   The collection's documentation can be found [here](https://www.postman.com/ym-356609/workspace/ym-team/documentation/16305790-832c639b-bd7a-4e8d-ae20-4caa83107411)
 -   On running the auth-jwt api (of student or tutor), collection variable `tutor_jwt` or `student_jwt` will be automatically set and used for all future tutor/student apis. You can verify this in Headers section of each request.

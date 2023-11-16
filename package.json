@@ -11,7 +11,8 @@
         "pg": "^8.11.3"
     },
     "scripts": {
-        "dev": "nodemon ./app.js"
+        "dev": "nodemon ./app.js",
+        "prod": "node ./app.js"
     },
     "devDependencies": {
         "nodemon": "^3.0.1"

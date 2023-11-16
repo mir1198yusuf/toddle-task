@@ -10,7 +10,10 @@
 ### Before running locally
 
 -   Make sure Node.js 14+ & Postgres server is installed & Postgres server is running.
--   The project migrations will create the database as well, so it will first connect to default `postgres` database. Make sure that `postgres` database is not deleted & user have access to connect to `postgres` database.
+-   The project migrations will create the database as well, so it will first connect to default `postgres` database. Make sure that `postgres` database is not deleted & user have access to connect to `postgres` database & access to create-database.
+-   Why create-database access needed ? To make it easier for reviewer to run all migrations (including database) in one-command, else reviewer would need to manually create a database first & then run table migrations.
+-   How to check if user can connect to `postgres` db : run `psql -h <domain> -d postgres -U <user>`.
+-   If you want to create a new user : run within `psql` following commands : `CREATE ROLE appuser;` => `alter role appuser with login;` => `alter user appuser createdb;` => `alter user appuser with password 'stongPass';` => Your user is ready, test with above command.
 
 ### How to run locally
 

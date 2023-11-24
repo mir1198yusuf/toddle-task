@@ -2,7 +2,7 @@
 
 ### Hosted on
 
--   The live url of backend is - https://toddle-task.ddns.net . This is the base url of hosted version (like http://localhost:3000 is for local version). It will redirect to postman collection (more details in below section)
+-   The live url of backend is - https://toddle-task.ddns.net [DOWN NOW TO SAVE COST]. This is the base url of hosted version (like http://localhost:3000 is for local version). It will redirect to postman collection (more details in below section)
 -   Hosted on EC2 t2.micro
 -   Used Nginx as reverse proxy running on same instance and added TLS on it
 -   Postgres db is also running on same instance
